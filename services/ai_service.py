@@ -2,7 +2,7 @@
 services/ai_service.py
 
 This module handles all AI/LLM logic.
-Keeping it separate from views = "Separation of Concerns" (great for interviews!).
+Keeping it separate from views .
 """
 from django.conf import settings
 

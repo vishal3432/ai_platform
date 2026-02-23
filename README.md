@@ -1,6 +1,6 @@
 # 🤖 AI Task Platform
 
-A full-stack AI-powered task management platform built with Django, Celery, Redis, WebSockets, and React. Think "Trello meets AI" — upload files, get AI summaries, and watch status updates in real time.
+A full-stack AI-powered task management platform built with Django, Celery, Redis, WebSockets, and React.It upload files, get AI summaries, and watch status updates in real time.
 
 ---
 
@@ -42,7 +42,7 @@ ai-platform/
 ### Prerequisites
 - Python 3.11+
 - Docker Desktop for Windows (for Redis)
-- Node.js 18+ (for frontend, optional)
+- Node.js 18+ (for frontend)
 
 ### Step 1 — Clone & Virtual Environment
 
@@ -205,7 +205,3 @@ To enable Render deployment, uncomment the deploy block in `.github/workflows/de
 - **Mock AI mode** — Works without an OpenAI key (great for dev/testing)
 
 ---
-
-## 📝 License
-
-MIT
